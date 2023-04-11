@@ -4,6 +4,17 @@ import java.awt.*;	//awt is used to add frame
 import java.awt.event.*;	//awt.event is used to make the closing button working
 import java.awt.Font;
 import java.awt.Color;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+
+/*String url = "jdbc:mysql://localhost/finance_manager";
+String username = "system";
+String password = "system";
+
+Connection con = DriverManager.getConnection(url, username, password);*/
+
 
 public class Myframe extends Frame {
 	//constructor created
